@@ -1,0 +1,22 @@
+{
+  "intents": [
+    {
+      "intent": "StockInfoIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "stocks",
+          "type": "STOCKS"
+        }
+      ],
+      "intent": "StockPriceIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    }
+  ]
+}
